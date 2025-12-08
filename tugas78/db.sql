@@ -1,5 +1,6 @@
 CREATE TABLE prestasi(
-	npm CHAR(10) NOT NULL PRIMARY KEY,
+    id INT AUTO_INCREMENT PRIMARY KEY,
+	npm VARCHAR(10) NOT NULL UNIQUE,
     nama VARCHAR(100),
     nama_prestasi VARCHAR(100),
     tahun_prestasi YEAR
